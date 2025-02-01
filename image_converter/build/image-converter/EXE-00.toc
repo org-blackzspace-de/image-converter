@@ -1,0 +1,94 @@
+("C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+ 'Image-Converter\\image_converter\\build\\image-converter\\image-converter.exe',
+ True,
+ True,
+ True,
+ ['C:\\Users\\hexzh\\OneDrive\\Icons Gallery\\@Entiwcklungs '
+  'Grafiken\\de.blackzspace.org\\favicon.ico'],
+ None,
+ True,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
+ b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
+ b'Privileges>\n        <requestedExecutionLevel level="requireAdministrator'
+ b'" uiAccess="false"/>\n      </requestedPrivileges>\n    </security>\n  </tr'
+ b'ustInfo>\n  <compatibility xmlns="urn:schemas-microsoft-com:compatibility'
+ b'.v1">\n    <application>\n      <supportedOS Id="{e2011457-1546-43c5-a5fe-'
+ b'008deee3d3f0}"/>\n      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a244022'
+ b'5f93a}"/>\n      <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"'
+ b'/>\n      <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\n    '
+ b'  <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>\n    </appli'
+ b'cation>\n  </compatibility>\n  <application xmlns="urn:schemas-microsoft-c'
+ b'om:asm.v3">\n    <windowsSettings>\n      <longPathAware xmlns="http://sch'
+ b'emas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware>\n    </'
+ b'windowsSettings>\n  </application>\n  <dependency>\n    <dependentAssembly>'
+ b'\n      <assemblyIdentity type="win32" name="Microsoft.Windows.Common-Con'
+ b'trols" version="6.0.0.0" processorArchitecture="*" publicKeyToken="6595b6414'
+ b'4ccf1df" language="*"/>\n    </dependentAssembly>\n  </dependency>\n</assem'
+ b'bly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+ 'Image-Converter\\image_converter\\build\\image-converter\\image-converter.pkg',
+ [('v', None, 'OPTION'),
+  ('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\build\\image-converter\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\build\\image-converter\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\build\\image-converter\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\build\\image-converter\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\build\\image-converter\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\build\\image-converter\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\hexzh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\hexzh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt6',
+   'C:\\Users\\hexzh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\hexzh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('image-converter',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\image-converter.py',
+   'PYSOURCE'),
+  ('mainui',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\mainui.py',
+   'PYSOURCE'),
+  ('Splash-00.res',
+   "C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+   'Image-Converter\\image_converter\\build\\image-converter\\Splash-00.res',
+   'SPLASH')],
+ [],
+ False,
+ False,
+ 1738428384,
+ [('run_d.exe',
+   'C:\\Users\\hexzh\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run_d.exe',
+   'EXECUTABLE')],
+ 'C:\\Users\\hexzh\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll')

@@ -1,0 +1,3 @@
+("C:\\Users\\hexzh\\Entwicklung\\Projekte-Index\\hexzehn3x7's - "
+ 'Image-Converter\\image_converter\\build\\image-converter\\PYZ-00.pyz',
+ [])
