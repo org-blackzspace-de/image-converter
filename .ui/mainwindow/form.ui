@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1152</width>
+    <height>645</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(44, 44, 44);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1151</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(57, 57, 57);
+color: rgb(0, 255, 0);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_start">
+     <attribute name="title">
+      <string>Start</string>
+     </attribute>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>380</y>
+        <width>881</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTextBrowser {
+    font-size: 14px; 
+    font-family: Arial, sans-serif;
+    color: #333333; /* Dunkelgrauer Text */
+    background-color: #f9f9f9; /* Helles Grau für bessere Lesbarkeit */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 8px;
+}
+QTextBrowser {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #f0f0f0;
+    width: 10px;
+    margin: 2px 0 2px 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #999999;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #666666;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: none;
+    border: none;
+}
+</string>
+      </property>
+      <property name="documentTitle">
+       <string>README</string>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;title&gt;README&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial','sans-serif'; font-size:14px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;This application is written in Python3 and is and remains free. It is based on open source code. So you can be sure that you will not receive any ad goods, malware, or anything with the application that could harm you through hidden costs, viruses in all forms or other. In my opinion, the real work on the code was done by the developers of the module: &amp;quot;Pillow&amp;quot; and the graphical user interface: &amp;quot;PyQt6&amp;quot;. Many online conversion services that are likely to be based on NodeJS can include hidden viruses, bathroom cookies, and more. This does not apply to this application because it is open to view and also does not require any network services. Selling, renting or changing the code by integrating malicious code is strictly prohibited and can be carried out. This code is set under the MIT license and is therefore a very free open source code. To everyone who sees this project not only as a user, but also as a developer, you can simply send me an email or notification to Github and send suggestions for improvement / requests for changes. The same is of course also valid for dear users! &amp;quot; You can simply create an ISSUE in the Github Repository or join the discussion of the project! &amp;quot; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="openLinks">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>170</y>
+        <width>120</width>
+        <height>80</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_convert">
+     <attribute name="title">
+      <string>Convert</string>
+     </attribute>
+     <widget class="QPushButton" name="convert_Button">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>390</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Convert</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>481</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="load_images_directly_Button">
+      <property name="geometry">
+       <rect>
+        <x>1040</x>
+        <y>60</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Load</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="load_images_Path">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>60</y>
+        <width>481</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_load_images">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>30</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Load images to convert:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_images_loaded">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Images: loaded:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_search_in_folder">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>110</y>
+        <width>241</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Search and Select all images from a folder: </string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="load_images_from_folder_Path">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>140</y>
+        <width>481</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="load_images_from_folder_Button">
+      <property name="geometry">
+       <rect>
+        <x>1040</x>
+        <y>140</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Load</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_settings">
+     <attribute name="title">
+      <string>Settings</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>580</y>
+      <width>1151</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar {
+        border: 2px solid #000;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 16px;  /* Schriftgröße */
+        font-weight: bold; /* Fettgedruckt */
+		color: black;
+ }
+ QProgressBar::chunk {
+                background-color: rgb(255, 0, 98);  /* Ändert die Farbe des Fortschritts */
+                width: 10px;
+ }</string>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
